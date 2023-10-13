@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Ping coming soon page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <!--    Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind play cdn for this challenge ( for development and play purposes ) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="./src/tailwind.config.js"></script>
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+
 </head>
 <body>
 
-  We are launching soon!
+<main>
 
-  Subscribe and get notified
+  <h1>We are launching soon!</h1>
 
-  Notify Me
+  <p>Subscribe and get notified</p>
 
-  &copy; Copyright Ping. All rights reserved.
+  <p>Notify Me</p>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+  <p>&copy; Copyright Ping. All rights reserved.</p>
+
+</main>
+
+<footer>
+    <div class="fixed bottom-0 inset-x-0 bg-white/90 opacity-0 translate-y-2 py-2 text-xs text-blue-dark text-center hover:opacity-90 hover:translate-y-0 transition ease-out duration-300">
+        Challenge by <a class="text-blue-dark hover:text-blue hover:underline ease-in-out duration-150" href="https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1" target="_blank">Frontend Mentor</a>.
+        Coded by <a class="text-blue-dark hover:text-blue hover:underline ease-in-out duration-150" href="https://www.frontendmentor.io/profile/wendyhamel" target="_blank">Wendy Hamel</a>.
+    </div>
+</footer>
 </body>
 </html>
